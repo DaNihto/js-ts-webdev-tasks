@@ -1,0 +1,95 @@
+#app {
+    min-width: 1170px;
+    margin: auto;
+    padding: 85px 115px;
+    box-sizing: border-box;
+}
+
+.header {
+    margin-bottom: 40px;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+    font-family: DM Sans;
+    font-size: 42px;
+    line-height: 52px;
+    letter-spacing: 1.6px;
+    font-weight: 800px;
+    text-align: left;
+    color: rgba(30, 14, 98, 1);
+    align-items: start;
+}
+
+.wrapper{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-between;
+    row-gap: 30px;
+}
+
+.card {
+    width: 48.72%;
+    padding: 55px 25px 50px 70px;
+
+    font-family: DM Sans;
+    font-size: 16px;
+    line-height: 22px;
+    text-align: center;
+
+    border-radius: 10px;
+
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: start;
+    text-align: left;
+    gap: 16px;
+}
+
+.card-title {
+    font-size: 22px;
+    margin-bottom: 10px;
+}
+
+.card-text {
+    width: 456px;
+    font-size: 16px;
+    line-height: 24px;
+    margin-left: 9px;
+    margin-right: 2px;
+}
+
+.button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    font-family: DM Sans;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 22px;
+    text-align: center;
+    letter-spacing: 0.06px;
+
+    border-radius: 100px;
+}
+
+.card-button {
+    margin-top: 73px;
+    padding: 9px 24px;
+    width: 23%;
+}
+
+.header-button {
+    border: 2px solid #EBEAED;
+    padding: 12px 30px;
+}
